@@ -356,5 +356,436 @@
     "pip": [],
     "preemptions": [],
     "cached": "False"
+  },
+  {
+    "name": "ComfyUI-Vextra-Nodes",
+    "url": "https://github.com/diontimmer/ComfyUI-Vextra-Nodes",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "diontimmer",
+      "title": "ComfyUI-Vextra-Nodes",
+      "id": "vextra",
+      "reference": "https://github.com/diontimmer/ComfyUI-Vextra-Nodes",
+      "files": [
+        "https://github.com/diontimmer/ComfyUI-Vextra-Nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes: Pixel Sort, Swap Color Mode, Solid Color, Glitch This, Add Text To Image, Play Sound, Prettify Prompt, Generate Noise, Flatten Colors"
+    },
+    "nodes": [
+      "Create Solid Color"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI Impact Pack",
+    "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Dr.Lt.Data",
+      "title": "ComfyUI Impact Pack",
+      "id": "comfyui-impact-pack",
+      "reference": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+      "files": [
+        "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+      ],
+      "install_type": "git-clone",
+      "description": "This node pack offers various detector nodes and detailer nodes that allow you to configure a workflow that automatically enhances facial details. And provide iterative upscaler.\nNOTE: To use the UltralyticsDetectorProvider, you must install the 'ComfyUI Impact Subpack' separately."
+    },
+    "nodes": [
+      "ImageListToImageBatch",
+      "ImageListToImageBatch",
+      "ImpactImageBatchToImageList",
+      "FaceDetailer",
+      "SAMLoader"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [
+      "SAMLoader"
+    ],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyLiterals",
+    "url": "https://github.com/M1kep/ComfyLiterals",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "M1kep",
+      "title": "ComfyLiterals",
+      "id": "comfyliterals",
+      "reference": "https://github.com/M1kep/ComfyLiterals",
+      "files": [
+        "https://github.com/M1kep/ComfyLiterals"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes: Int, Float, String, Operation, Checkpoint"
+    },
+    "nodes": [
+      "Float",
+      "Float"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "Allor Plugin",
+    "url": "https://github.com/Nourepide/ComfyUI-Allor",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Nourepide",
+      "title": "Allor Plugin",
+      "id": "allor",
+      "reference": "https://github.com/Nourepide/ComfyUI-Allor",
+      "files": [
+        "https://github.com/Nourepide/ComfyUI-Allor"
+      ],
+      "install_type": "git-clone",
+      "description": "Allor is a plugin for ComfyUI with an emphasis on transparency and performance."
+    },
+    "nodes": [
+      "ImageCompositeAbsolute"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "KJNodes for ComfyUI",
+    "url": "https://github.com/kijai/ComfyUI-KJNodes",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "kijai",
+      "title": "KJNodes for ComfyUI",
+      "id": "kjnodes",
+      "reference": "https://github.com/kijai/ComfyUI-KJNodes",
+      "files": [
+        "https://github.com/kijai/ComfyUI-KJNodes"
+      ],
+      "install_type": "git-clone",
+      "description": "Various quality of life -nodes for ComfyUI, mostly just visual stuff to improve usability."
+    },
+    "nodes": [
+      "ColorMatch",
+      "ImageGridComposite2x2",
+      "ColorMatch",
+      "ColorMatch"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI-VideoHelperSuite",
+    "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Kosinkadink",
+      "title": "ComfyUI-VideoHelperSuite",
+      "id": "vhs",
+      "reference": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+      "files": [
+        "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes related to video workflows"
+    },
+    "nodes": [
+      "VHS_DuplicateImages",
+      "VHS_GetImageCount",
+      "VHS_VideoCombine",
+      "VHS_VideoCombine",
+      "VHS_VideoCombine",
+      "VHS_VideoCombine",
+      "VHS_VideoCombine"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI Frame Interpolation",
+    "url": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Fannovel16",
+      "title": "ComfyUI Frame Interpolation",
+      "id": "frame-interpolation",
+      "reference": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+      "files": [
+        "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
+      ],
+      "install_type": "git-clone",
+      "description": "A custom node suite for Video Frame Interpolation in ComfyUI"
+    },
+    "nodes": [
+      "RIFE VFI"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI Impact Subpack",
+    "url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Dr.Lt.Data",
+      "title": "ComfyUI Impact Subpack",
+      "id": "comfyui-impact-subpack",
+      "reference": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack",
+      "files": [
+        "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+      ],
+      "install_type": "git-clone",
+      "description": "This node pack provides nodes that complement the Impact Pack, such as the UltralyticsDetectorProvider."
+    },
+    "nodes": [
+      "UltralyticsDetectorProvider"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI-Advanced-ControlNet",
+    "url": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Kosinkadink",
+      "title": "ComfyUI-Advanced-ControlNet",
+      "id": "adv-cnet",
+      "reference": "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet",
+      "files": [
+        "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes for scheduling ControlNet strength across timesteps and batched latents, as well as applying custom weights and attention masks."
+    },
+    "nodes": [
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI-Apt_Preset",
+    "url": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "cardenluo",
+      "title": "ComfyUI-Apt_Preset",
+      "reference": "https://github.com/cardenluo/ComfyUI-Apt_Preset",
+      "files": [
+        "https://github.com/cardenluo/ComfyUI-Apt_Preset"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI Preset Manager, supporting various preset templates and workflow management"
+    },
+    "nodes": [
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply",
+      "ACN_AdvancedControlNetApply"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "AnimateDiff Evolved",
+    "url": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "Kosinkadink",
+      "title": "AnimateDiff Evolved",
+      "id": "ad-evolved",
+      "reference": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "files": [
+        "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
+      ],
+      "install_type": "git-clone",
+      "description": "A forked repository that actively maintains [a/AnimateDiff](https://github.com/ArtVentureX/comfyui-animatediff), created by ArtVentureX.\n\nImproved AnimateDiff integration for ComfyUI, adapts from sd-webui-animatediff.\n[w/Download one or more motion models from [a/Original Models](https://huggingface.co/guoyww/animatediff/tree/main) | [a/Finetuned Models](https://huggingface.co/manshoety/AD_Stabilized_Motion/tree/main). See README for additional model links and usage. Put the model weights under %%ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/models%%. You are free to rename the models, but keeping original names will ease use when sharing your workflow.]"
+    },
+    "nodes": [
+      "ADE_AnimateDiffUniformContextOptions",
+      "ADE_AnimateDiffLoaderWithContext"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI-HakuImg",
+    "url": "https://github.com/licyk/ComfyUI-HakuImg",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "licyk",
+      "title": "ComfyUI-HakuImg",
+      "id": "HakuImg",
+      "reference": "https://github.com/licyk/ComfyUI-HakuImg",
+      "files": [
+        "https://github.com/licyk/ComfyUI-HakuImg"
+      ],
+      "install_type": "git-clone",
+      "description": "Image processing tool for ComfyUI"
+    },
+    "nodes": [
+      "Color"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "comfyui-art-venture",
+    "url": "https://github.com/sipherxyz/comfyui-art-venture",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "sipherxyz",
+      "title": "comfyui-art-venture",
+      "id": "artventure",
+      "reference": "https://github.com/sipherxyz/comfyui-art-venture",
+      "files": [
+        "https://github.com/sipherxyz/comfyui-art-venture"
+      ],
+      "install_type": "git-clone",
+      "description": "A comprehensive set of custom nodes for ComfyUI, focusing on utilities for image processing, JSON manipulation, model operations and working with object via URLs"
+    },
+    "nodes": [
+      "SDXLPromptStyler"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "SDXL Prompt Styler",
+    "url": "https://github.com/twri/sdxl_prompt_styler",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "twri",
+      "title": "SDXL Prompt Styler",
+      "id": "twri-styler",
+      "reference": "https://github.com/twri/sdxl_prompt_styler",
+      "files": [
+        "https://github.com/twri/sdxl_prompt_styler"
+      ],
+      "install_type": "git-clone",
+      "description": "SDXL Prompt Styler is a node that enables you to style prompts based on predefined templates stored in a JSON file."
+    },
+    "nodes": [
+      "SDXLPromptStyler"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "comfyui-copilot",
+    "url": "https://github.com/hylarucoder/comfyui-copilot",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "hylarucoder",
+      "title": "comfyui-copilot",
+      "reference": "https://github.com/hylarucoder/comfyui-copilot",
+      "files": [
+        "https://github.com/hylarucoder/comfyui-copilot"
+      ],
+      "install_type": "git-clone",
+      "description": "NODES:Eagle Image Node for PNGInfo, SDXL Resolution Presets (ws), SDXL Prompt Styler, SDXL Prompt Styler Advanced"
+    },
+    "nodes": [
+      "SDXLPromptStyler"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "Comfy_KepListStuff",
+    "url": "https://github.com/M1kep/Comfy_KepListStuff",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "M1kep",
+      "title": "Comfy_KepListStuff",
+      "id": "keplist",
+      "reference": "https://github.com/M1kep/Comfy_KepListStuff",
+      "files": [
+        "https://github.com/M1kep/Comfy_KepListStuff"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes: Range(Step), Range(Num Steps), List Length, Image Overlay, Stack Images, Empty Images, Join Image Lists, Join Float Lists. This extension provides various list manipulation nodes"
+    },
+    "nodes": [
+      "Range(Num Steps) - Float"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "Quality of Life Nodes for ComfyUI",
+    "url": "https://github.com/SozeInc/ComfyUI_Soze",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "SozeInc",
+      "title": "Quality of Life Nodes for ComfyUI",
+      "id": "ComfyUI_Soze",
+      "reference": "https://github.com/SozeInc/ComfyUI_Soze",
+      "files": [
+        "https://github.com/SozeInc/ComfyUI_Soze"
+      ],
+      "install_type": "git-clone",
+      "description": "These nodes aid with batching image processing and maintaining input file names in output files and other quality of life nodes."
+    },
+    "nodes": [
+      "Range(Num Steps) - Float"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
   }
 ]
