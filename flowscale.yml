@@ -204,6 +204,17 @@ workflows:
         demo_type: image
     skip_preprocess: true
     advancedConfig: false
+  - id: lr9800okwg
+    name: >-
+      workflow-realtime-rendering-for-interior-collage-c29drxuxk5lc4gubwlia-neanderthal_cuddly_76-openart.ai_api.json
+    file: >-
+      app-api/workflow-realtime-rendering-for-interior-collage-c29drxuxk5lc4gubwlia-neanderthal_cuddly_76-openart.ai_api.json
+    version: 1
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
+    advancedConfig: false
 normal_workflows:
   - id: dt1vvo7wj2u
     name: basic_inpainting.json
@@ -262,4 +273,4 @@ normal_workflows:
       workflow-realtime-rendering-for-interior-collage-c29drxuxk5lc4gubwlia-neanderthal_cuddly_76-openart.ai.json
     file: >-
       app-api/workflow-realtime-rendering-for-interior-collage-c29drxuxk5lc4gubwlia-neanderthal_cuddly_76-openart.ai.json
-    version: 0
+    version: 1
