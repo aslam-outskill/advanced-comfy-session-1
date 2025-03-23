@@ -257,3 +257,9 @@ normal_workflows:
     name: product_photography_app.json
     file: basics/product_photography_app.json
     version: 0
+  - id: 9z62c27ttt
+    name: >-
+      workflow-zero123-animatediff-v3-k2nre5easfwuvvdmyerc-rui400-openart.ai.json
+    file: >-
+      app-api/workflow-zero123-animatediff-v3-k2nre5easfwuvvdmyerc-rui400-openart.ai.json
+    version: 0
