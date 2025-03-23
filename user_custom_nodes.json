@@ -243,5 +243,118 @@
     "pip": [],
     "apt": [],
     "cached": "False"
+  },
+  {
+    "name": "comfyui-mixlab-nodes",
+    "url": "https://github.com/shadowcz007/comfyui-mixlab-nodes",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "shadowcz007",
+      "title": "comfyui-mixlab-nodes",
+      "id": "mixlab",
+      "reference": "https://github.com/shadowcz007/comfyui-mixlab-nodes",
+      "files": [
+        "https://github.com/shadowcz007/comfyui-mixlab-nodes"
+      ],
+      "install_type": "git-clone",
+      "description": "3D, ScreenShareNode & FloatingVideoNode, SpeechRecognition & SpeechSynthesis, GPT, LoadImagesFromLocal, Layers, Other Nodes, ..."
+    },
+    "nodes": [
+      "TextInput_"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI_IPAdapter_plus",
+    "url": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "cubiq",
+      "title": "ComfyUI_IPAdapter_plus",
+      "id": "ipadapter",
+      "reference": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+      "files": [
+        "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI reference implementation for IPAdapter models. The code is mostly taken from the original IPAdapter repository and laksjdjf's implementation, all credit goes to them. I just made the extension closer to ComfyUI philosophy."
+    },
+    "nodes": [
+      "IPAdapterAdvanced",
+      "IPAdapterUnifiedLoader"
+    ],
+    "apt": [],
+    "pip": [
+      "insightface"
+    ],
+    "preemptions": [
+      "IPAAdapterFaceIDBatch",
+      "IPAdapter",
+      "IPAdapterAdvanced",
+      "IPAdapterBatch",
+      "IPAdapterClipVisionEnhancer",
+      "IPAdapterClipVisionEnhancerBatch",
+      "IPAdapterCombineEmbeds",
+      "IPAdapterCombineParams",
+      "IPAdapterCombineWeights",
+      "IPAdapterEmbeds",
+      "IPAdapterEmbedsBatch",
+      "IPAdapterEncoder",
+      "IPAdapterFaceID",
+      "IPAdapterFromParams",
+      "IPAdapterInsightFaceLoader",
+      "IPAdapterLoadEmbeds",
+      "IPAdapterMS",
+      "IPAdapterModelLoader",
+      "IPAdapterNoise",
+      "IPAdapterPreciseComposition",
+      "IPAdapterPreciseCompositionBatch",
+      "IPAdapterPreciseStyleTransfer",
+      "IPAdapterPreciseStyleTransferBatch",
+      "IPAdapterPromptScheduleFromWeightsStrategy",
+      "IPAdapterRegionalConditioning",
+      "IPAdapterSaveEmbeds",
+      "IPAdapterStyleComposition",
+      "IPAdapterStyleCompositionBatch",
+      "IPAdapterTiled",
+      "IPAdapterTiledBatch",
+      "IPAdapterUnifiedLoader",
+      "IPAdapterUnifiedLoaderCommunity",
+      "IPAdapterUnifiedLoaderFaceID",
+      "IPAdapterWeights",
+      "IPAdapterWeightsFromStrategy",
+      "PrepImageForClipVision"
+    ],
+    "cached": "False"
+  },
+  {
+    "name": "ComfyUI-JakeUpgrade",
+    "url": "https://github.com/jakechai/ComfyUI-JakeUpgrade",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "jakechai",
+      "title": "ComfyUI-JakeUpgrade",
+      "id": "jkupgrade",
+      "reference": "https://github.com/jakechai/ComfyUI-JakeUpgrade",
+      "files": [
+        "https://github.com/jakechai/ComfyUI-JakeUpgrade"
+      ],
+      "install_type": "git-clone",
+      "description": "A ComfyUI workflow customization by Jake."
+    },
+    "nodes": [
+      "IPAdapterAdvanced",
+      "IPAdapterUnifiedLoader"
+    ],
+    "apt": [],
+    "pip": [],
+    "preemptions": [],
+    "cached": "False"
   }
 ]
