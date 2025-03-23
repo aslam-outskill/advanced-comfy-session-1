@@ -257,3 +257,9 @@ normal_workflows:
     name: product_photography_app.json
     file: basics/product_photography_app.json
     version: 0
+  - id: nimqlz9ir5s
+    name: >-
+      workflow-comfyui---professional-product-photography-style-kcbahlgx1fd3qecz0rsp-cgtips-openart.ai.json
+    file: >-
+      app-api/workflow-comfyui---professional-product-photography-style-kcbahlgx1fd3qecz0rsp-cgtips-openart.ai.json
+    version: 0
